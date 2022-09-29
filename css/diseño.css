@@ -1,0 +1,604 @@
+* {
+  border: 0;
+  margin: 0;
+}
+footer {
+  display: block;
+}
+body {
+  color: #282938;
+  background-color: #f6f6f6;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 20, 65);
+}
+ul,
+li {
+  list-style: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div {
+  display: block;
+}
+.fixed {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.main_header {
+  width: 100%;
+  margin: 0%;
+  font-family: "Actor", sans-serif;
+}
+.main_header nav {
+  display: inline-block;
+  width: 90%;
+  padding-left: 80px;
+  text-align: end;
+}
+
+.main_header ul li {
+  display: inline-block;
+  width: 9%;
+  position: relative;
+}
+.main_header ul ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 70px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.main_header ul ul li {
+  display: block;
+}
+.main_header ul li:hover ul {
+  display: block;
+}
+.main_nav {
+  color: rgb(0, 20, 65);
+  text-align: center;
+}
+
+.barra_envios {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #001641;
+}
+.container {
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+}
+.texto_envios {
+  color: white;
+  font-size: 15px;
+}
+.main_imagen_juntas {
+  margin: 0 0 30px 0;
+}
+
+.main_texto_interior {
+  position: absolute;
+  width: 475px;
+  height: 184px;
+  left: 885px;
+  top: 329px;
+}
+.moon {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 184px;
+  color: #fff;
+}
+.texto_moon {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 400;
+  top: 500px;
+  position: absolute;
+  left: 795px;
+  font-family: "Alex Brush", cursive;
+  line-height: 60px;
+  color: #ffffff;
+}
+#caracteristicas {
+  max-width: 1750px;
+  align-items: center;
+}
+.caracteristicas {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+  margin: 0 auto 20px;
+  padding: 20px 40px 20px 40px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Actor", sans-serif;
+}
+.icono_camion {
+  display: inline;
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+.titulo_camion {
+  display: inline-block;
+  position: relative;
+  left: 165px;
+  bottom: 20px;
+  font-size: 17px;
+  color: #333;
+}
+.texto_camion {
+  display: inline-block;
+  position: relative;
+  right: 93px;
+  color: #3483fa;
+  font-size: 16px;
+}
+.icono_atencion_cliente {
+  display: inline;
+  position: relative;
+  left: 500px;
+  bottom: 50px;
+}
+.carta_atencion_cliente {
+  display: inline-block;
+  position: relative;
+  left: 501px;
+  bottom: 50px;
+  font-size: 17px;
+  color: #333;
+}
+.icono_garantia {
+  display: inline;
+  position: relative;
+  left: 520px;
+  bottom: 50px;
+}
+.carta_garantia {
+  display: inline-block;
+  position: relative;
+  left: 525px;
+  bottom: 50px;
+  font-size: 17px;
+  color: #333;
+}
+.icono_pagos {
+  display: inline;
+  position: relative;
+  left: 540px;
+  bottom: 50px;
+}
+.carta_pagos {
+  display: inline-block;
+  position: relative;
+  left: 545px;
+  bottom: 70px;
+  font-size: 17px;
+  color: #333;
+}
+.texto_carateristicas {
+  color: #3483fa;
+  font-size: 16px;
+}
+
+#cont_principal {
+  width: 100%;
+  margin: 60px 0 160px 0;
+}
+#cont_principal .cont_principal_titulo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  position: absolute;
+  left: 4%;
+  top: 150%;
+  font-family: "Gentium Book Basic", serif;
+}
+#cont_principal .sub_titulo_principal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 2%;
+  top: 157%;
+  font-family: "Gentium Book Basic", serif;
+}
+#cont_principal .texto_principal {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  position: absolute;
+  top: 162%;
+  left: 2%;
+  width: 667px;
+  height: 85px;
+  font-family: "Source Serif 4", serif;
+}
+#cont_principal .sub_titulo_principal_dos {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  top: 175%;
+  left: 2%;
+  position: absolute;
+  width: 667px;
+  height: 85px;
+  font-family: "Gentium Book Basic", serif;
+}
+#cont_principal .texto_principal_dos {
+  position: absolute;
+  width: 667px;
+  height: 132px;
+  top: 180%;
+  left: 2%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  font-family: "Source Serif 4", serif;
+}
+.imagen_principal {
+  position: relative;
+  width: 474px;
+  height: 465px;
+  left: 65%;
+  top: 9px;
+}
+.section_nosotros {
+  width: 90%;
+  margin: 60px 0 60px 0;
+}
+
+.img_nosotros_index {
+  position: relative;
+  width: 474px;
+  height: 465px;
+  top: 3px;
+  left: 10%;
+}
+.texto_nosotros {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  position: absolute;
+  top: 200%;
+  left: 60%;
+  width: 667px;
+  height: 85px;
+  font-family: "Source Serif 4", serif;
+}
+.sub_texto_nosotros {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  position: absolute;
+  top: 223%;
+  left: 60%;
+  width: 667px;
+  height: 85px;
+  font-family: "Source Serif 4", serif;
+}
+/* contacto */
+.imagen_contacto {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 60%;
+  top: 15%;
+}
+
+.row-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+.row-fluid .span6 {
+  width: 50%;
+}
+.span6 {
+  display: block;
+  float: left;
+  margin-left: 2.1%;
+  box-sizing: border-box;
+  top: 50%;
+  margin-bottom: 30px;
+}
+.span5 {
+  display: block;
+  float: left;
+  height: 100%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+.m-bottom {
+  margin-bottom: 20px;
+}
+.m-top {
+  margin-top: 20px;
+}
+.m-bottom-half {
+  margin-bottom: 30px;
+}
+.imagen-cont {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.full-width {
+  width: 100%;
+}
+.pull-left {
+  float: left;
+}
+.form-group {
+  position: relative;
+  margin-top: 30px;
+  left: 50%;
+}
+.form-row {
+  display: flex;
+  column-gap: 20px;
+}
+input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.form-control {
+  display: block;
+}
+/* nosotros */
+.titulo_nosotros_1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Gentium Book Basic", serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.nosotros_sec {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+.img_nosotros {
+  position: relative;
+  left: 20px;
+  margin-right: 15px;
+  top: 50px;
+}
+.parrafo_nosotros {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  font-family: "Source Serif 4", serif;
+}
+.parrafo_nosotros {
+  position: relative;
+  left: 5%;
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+  top: 50px;
+}
+.titulo_nosotros_2{
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Gentium Book Basic", serif;
+}
+
+.parrafo_nosotros_2{
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 26px;
+  font-family: "Source Serif 4", serif;
+}
+
+
+/*  MEDIOS DE PAGO */
+
+#contenido{
+  width: 100%;
+  height: 100%;
+}
+#contenido .m6{
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+#contenido .m6 .b4{
+  width: 1300px;
+  margin: 0 auto;
+}
+#contenido .m6 .b4 .d3{
+  width: 1300px;
+  margin: 0 auto 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+#contenido .m6 .b4 .d3 .title{
+  display: block;
+  color: #0f0e0e;
+  font-size: 24px;
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 0 30px;
+}
+#contenido .m6 .b4 .d3 .content{
+  padding: 30px;
+  color: #666;
+  display: block;
+  font-size: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0px 0 0;
+  border-top: 1px solid #ddd;
+  font-family: "Actor", sans-serif;
+}
+#footer .m-section {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+#footer .m-section {
+  background-color: #323030;
+  color: #fff;
+}
+#footer .m-section .b1 {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 60px;
+  text-align: center;
+}
+#footer .m-section .b1 .d1 {
+  width: calc((100% - 30px) / 3);
+}
+#footer .m-section .b1 .d1 {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 30px 0 0;
+  text-align: left;
+  vertical-align: top;
+}
+#footer .m-section .b1 .d1:last-child {
+  padding: 0;
+}
+.d1 h4 {
+  font-weight: bold !important;
+  line-height: 20px;
+  font-size: 14px;
+  display: inline;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+#footer .m-section .h4 {
+  background-color: black;
+  color: #fff;
+}
+.ul_footer {
+  display: inline;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+#footer .m-section .b1 .d1 li {
+  margin-top: 10px;
+  line-height: 100%;
+  font-size: 14px;
+  color: #fff;
+}
+#footer .m-section .b1 .d1 li a {
+  display: block;
+  font-size: 14px;
+}
+.img_footer {
+  display: inline;
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+#footer .m-section a {
+  color: #fff;
+}
+#footer .m-section .b1 .d1 li i {
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+}
+#footer .m-legal {
+  width: 100%;
+  min-width: 1200px;
+  padding: 30px 0;
+  overflow: hidden;
+}
+#footer .m-legal {
+  background-color: #0f0e0e;
+  color: #fff;
+}
+#footer .m-legal .b1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+#footer .m-legal .b1 .d1 {
+  display: inline;
+  position: relative;
+  right: 35%;
+  top: 25px;
+}
+#footer .m-legal .b1 .d1 p {
+  font-size: 15px;
+  line-height: 120%;
+  padding: 0 0 20px;
+}
