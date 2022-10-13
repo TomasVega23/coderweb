@@ -1,0 +1,125 @@
+* {
+  border: 0;
+  margin: 0;
+}
+footer {
+  display: block;
+}
+body {
+  color: #282938;
+  background-color: #f6f6f6;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 20, 65);
+}
+ul,
+li {
+  list-style: none !important;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div {
+  display: block;
+}
+/* productos */
+.m_categorias {
+  text-align: center;
+}
+.m_categorias li {
+  width: 100%;
+}
+.m_categorias li .titulo {
+  color: #0f0e0e;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  line-height: 34px;
+  overflow: hidden;
+  margin: 10px 0 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m_categorias li .img_categoria {
+  width: 180px;
+  height: 180px;
+  background-color: #fafafa;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.m_categorias li .img_categoria img {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrapper_categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  /* productos */
+  .m_categorias {
+    max-width: 1300px;
+    min-width: 1200px;
+    margin: 30px auto 30px auto;
+    text-align: center;
+  }
+  .m_categorias li {
+    width: 100%;
+  }
+  .m_categorias li .titulo {
+    color: #0f0e0e;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    line-height: 34px;
+    overflow: hidden;
+    margin: 10px 0 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .m_categorias li .img_categoria {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .m_categorias li .img_categoria img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .wrapper_categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

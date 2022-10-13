@@ -1,0 +1,155 @@
+* {
+    border: 0;
+    margin: 0;
+  }
+  footer {
+    display: block;
+  }
+  body {
+    color: #282938;
+    background-color: #f6f6f6;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 20, 65);
+  }
+  ul,
+  li {
+    list-style: none !important;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+  b,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p form {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  div {
+    display: block;
+  }
+  /* nosotros */
+  .nosotros_sec {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+  }
+  .titulo_nosotros_1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Gentium Book Basic", serif;
+    text-align: center;
+  }
+  .img_nosotros {
+    left: 20px;
+    margin-right: 15px;
+    top: 70px;
+    width: 375px;
+  }
+  .img_nosotros_2 {
+    width: 375px;
+    height: 300px;
+  }
+  .parrafo_nosotros {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+  }
+  .titulo_nosotros_2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Gentium Book Basic", serif;
+  }
+  .parrafo_nosotros_2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+  }
+  .img_nosotros_4 {
+    width: 375px;
+    height: 300px;
+  }
+  /* fin de nosotros */
+  @media (min-width: 992px){
+    /* nosotros */
+    .titulo_nosotros_1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        font-family: "Gentium Book Basic", serif;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .nosotros_sec {
+        display: flex;
+        margin-bottom: 5%;
+        margin-left: 10%;
+      }
+      .img_nosotros {
+        position: relative;
+        left: 20px;
+        margin-right: 15px;
+        top: 50px;
+      }
+      .parrafo_nosotros {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 36px;
+        font-family: "Source Serif 4", serif;
+      }
+      .parrafo_nosotros {
+        position: relative;
+        left: 5%;
+        width: 30%;
+        margin-top: 50px;
+        text-align: center;
+        top: 50px;
+      }
+      .titulo_nosotros_2 {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        font-family: "Gentium Book Basic", serif;
+      }
+      .img_nosotros_2 {
+        width: 375px;
+        height: 500px;
+      }
+      .parrafo_nosotros_2 {
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 26px;
+        font-family: "Source Serif 4", serif;
+      }
+      .img_nosotros_4 {
+        width: 1720px;
+        height: 1140px;
+  }
+}
